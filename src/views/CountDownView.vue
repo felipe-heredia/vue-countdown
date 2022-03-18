@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import SelectDate from '@/components/SelectDate.vue'
+import CountDown from '@/components/CountDown.vue'
 </script>
 
 <template>
   <main>
-    <SelectDate />
+    <CountDown />
   </main>
 </template>
