@@ -67,7 +67,7 @@ span.error {
 
 .date-input {
   background: var(--color-background-mute);
-  color: var(--vt-c-text-dark-1);
+  color: var(--color-text);
   padding: 0.6rem 1.6rem;
   font-size: 2rem;
   border: none;
@@ -94,5 +94,15 @@ button.show-countdown {
 button.show-countdown:hover {
   background: var(--vt-c-indigo-lighten);
   border-radius: 1.3rem;
+}
+
+@media (max-width: 520px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .date-input {
+    font-size: 1.6rem;
+  }
 }
 </style>

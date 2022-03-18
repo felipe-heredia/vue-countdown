@@ -108,4 +108,21 @@ p.day {
   font-size: 1.6rem;
   margin-top: 2rem;
 }
+
+@media (max-width: 670px) {
+  ul.timer li {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  ul.timer {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  ul.timer li {
+    justify-content: center;
+  }
+}
 </style>
